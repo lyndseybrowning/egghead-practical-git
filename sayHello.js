@@ -1,5 +1,5 @@
 const sayHello = (name) => {
-  return `Hello, ${name.toUpperCase()}!`;
+  return `Hello, ${name.toUpperCase()}!!`;
 };
 
 console.log(sayHello('Lyndsey'));
