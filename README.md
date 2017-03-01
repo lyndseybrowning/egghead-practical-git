@@ -15,3 +15,9 @@ Create and checkout branch at the same time using ```-b``` command:
 ```
 git checkout -b branch-name
 ```
+
+Switch to the last branch accessed:
+
+```
+git checkout -
+``` 
