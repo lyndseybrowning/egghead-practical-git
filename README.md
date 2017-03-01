@@ -9,3 +9,9 @@ git pull
 git fetch
 git merge
 ```
+
+Create and checkout branch at the same time using ```-b``` command:
+
+```
+git checkout -b branch-name
+```
