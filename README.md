@@ -50,4 +50,4 @@ git log --after="yesterday"
 git log --after="3/15/16" --before="yesterday"
 ```
 
-test
+Git blame <filename> tells us who modified the file, line by line.
