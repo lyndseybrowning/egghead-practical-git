@@ -20,4 +20,24 @@ Switch to the last branch accessed:
 
 ```
 git checkout -
-``` 
+```
+
+Less editor git log
+
+- use forward slash / to search log
+- press q to exit editor
+- navigate using up/down page keys
+- navigate using j or k keys or d and b for paging up and down
+
+Pass arguments to git log
+
+```
+// condense commits to a single line
+git log --oneline
+
+// show changes
+git log -p
+
+// show additions and deletions
+git log --stat
+```
