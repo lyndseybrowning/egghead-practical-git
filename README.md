@@ -51,3 +51,15 @@ git log --after="3/15/16" --before="yesterday"
 ```
 
 Git blame <filename> tells us who modified the file, line by line.
+
+Return repository to the state in which rebase was started
+
+```
+git rebase --abort
+```
+
+Interactive rebase (squash, pick, change commits)
+
+```
+git rebase -i origin/master
+```
