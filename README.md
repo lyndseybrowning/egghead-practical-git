@@ -40,4 +40,12 @@ git log -p
 
 // show additions and deletions
 git log --stat
+
+// filter by latest commits (show last 3)
+git log -3
+
+// filter by dates
+// sometimes used as since / until which are aliases to after and before respectively
+git log --after="yesterday"
+git log --after="3/15/16" --before="yesterday"
 ```

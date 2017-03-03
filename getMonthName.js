@@ -1,3 +1,3 @@
-function getMonthName() {
+export default function getMonthName() {
   return 'March';
 }

@@ -3,3 +3,5 @@ const sayHello = (name) => {
 };
 
 console.log(sayHello('Lyndsey'));
+
+export default sayHello;
