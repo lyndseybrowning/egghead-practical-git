@@ -73,3 +73,9 @@ git config --global core.editor atom
 git config --global alias.graph 'log --graph --oneline'
 git config --list
 ```
+
+If we add a .gitignore after we've started tracking files, we can use the following command to clear the git cache to remove the tracked files.
+
+```
+git rm --cached
+```
