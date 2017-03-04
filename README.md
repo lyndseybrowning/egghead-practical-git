@@ -74,6 +74,12 @@ git config --global alias.graph 'log --graph --oneline'
 git config --list
 ```
 
+Output contents of gitconfig file
+
+```
+cat ~/.gitconfig
+```
+
 If we add a .gitignore after we've started tracking files, we can use the following command to clear the git cache to remove the tracked files.
 
 ```
