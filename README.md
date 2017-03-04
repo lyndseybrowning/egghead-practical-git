@@ -63,3 +63,13 @@ Interactive rebase (squash, pick, change commits)
 ```
 git rebase -i origin/master
 ```
+
+Add global git configuration options
+
+```
+git config --global
+git config --global user.name 'Lyndsey Browning'
+git config --global core.editor atom
+git config --global alias.graph 'log --graph --oneline'
+git config --list
+```
